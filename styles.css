@@ -124,3 +124,29 @@ figcaption.name {
     font-size: 32px;
     color: #AD1A00;
 }
+
+@media screen and (min-width: 320px) and (max-width: 639px) {
+    ul {
+        border: 2px solid black;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: nowrap;
+    }
+
+
+    li {
+        margin: 5px 5px 5px 10px;
+    }
+
+    .admin-link {
+        margin-top: 5px;
+    }
+
+    .logo {
+        width: 120px;
+        height: 70px;
+    }
+}
