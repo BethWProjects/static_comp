@@ -3,9 +3,9 @@
 ## Abstract
 In this solo project I created a static comp utilizing flexbox and responsive design with media queries.  This was a challenge in [Turing School of Software and Design](https://turing.edu/). 
 
-![Comp Preview](assets/Desktop.png)
-![Comp Preview](assets/Tablet.png)
-![Comp Preview](assets/Mobile.png)
+![Comp Preview](assets/Desktop1.png)
+![Comp Preview](assets/Tablet1.png)
+![Comp Preview](assets/Mobile1.png)
 
 ## Site Link
 
