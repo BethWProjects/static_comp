@@ -23,7 +23,7 @@ In this solo project I created a static comp utilizing flexbox and responsive de
 - Media Queries
 
 ## Future Extensions
-- I plan to add more styling and update the media queries for a more inclusive design for all breakpoints. 
+- I plan to add more styling and update the media queries for a more inclusive design for all breakpoints.  
 
 ## Contributors
 - Beth Wilson [LinkedIn](https://www.linkedin.com/in/beth-wilson-92594284/) [GitHub](https://github.com/BethWProjects)

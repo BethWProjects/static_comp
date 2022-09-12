@@ -107,7 +107,12 @@ img {
     width: 300px;
     height: 140px;
     object-fit: cover;
-    margin: 0 0 10px 0;
+    /* margin: 0 0 10px 0; */
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .arrow {
@@ -122,19 +127,11 @@ img {
     border-radius: 100%;
 }
 
-figure {
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
+p { 
+    margin: 0 0 5px 10px;
 }
 
-figcaption {
-    margin-left: 10px;
-}
-
-figcaption.name {
+p.name {
     font-size: 20px;
 }
 
@@ -143,6 +140,7 @@ figcaption.name {
     background-color: #EDEDED;
     padding: 10px 10px 15px 5px;
     color: black;
+    text-decoration: underline;
 }
 
 .podcast {
