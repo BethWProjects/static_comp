@@ -24,6 +24,16 @@ ul {
 
 }
 
+a {
+    color: #B0B0B0;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: #ff4007;
+}
+
 .share-font {
     width: 20px;
     height: 20px;
@@ -79,7 +89,7 @@ h2 {
 .articles {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .article {
@@ -88,7 +98,7 @@ h2 {
     margin: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     box-shadow: 0 0 10px grey;
     position: relative;
 }
@@ -162,19 +172,36 @@ figcaption.name {
         align-items: flex-start;
         align-content: flex-start;
         flex-wrap: nowrap;
+        transition: ease all .15s;
     }
 
 
     li {
-        margin: 5px 5px 5px 10px;
+        margin: 5px 5px 5px -15px;
     }
 
     .admin-link {
-        margin-top: 5px;
+        margin: 5px 0 0 0;
+    }
+
+    .shares {
+        margin-left: -15px;
     }
 
     .logo {
-        width: 120px;
+        width: 110px;
         height: 70px;
+        margin-right: 10px;
+    }
+
+    .article {
+        width: 300px;
+        height: 400px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        box-shadow: 0 0 10px grey;
+        position: relative;
     }
 }
